@@ -1,0 +1,87 @@
+:root {
+  --primary: #003B6D;
+  --accent: #6699CC;
+  --text-dark: #676767;
+  --text-light: #BDBDBD;
+  --font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  color: var(--text-dark);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: var(--primary);
+  color: white;
+  padding: 20px 0;
+}
+
+.header-content h1 {
+  margin: 0;
+}
+
+.primary-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.primary-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.search-bar {
+  margin-left: auto;
+  padding: 5px;
+}
+
+.hero {
+  background: var(--accent);
+  color: white;
+  padding: 40px 0;
+}
+
+.hero-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero-image {
+  width: 50%;
+  height: 200px;
+  background: #ccc;
+  text-align: center;
+  line-height: 200px;
+}
+
+.about-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.about-image {
+  width: 50%;
+  height: 200px;
+  background: #ccc;
+  text-align: center;
+  line-height: 200px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin: 20px 
