@@ -17,8 +17,8 @@ header {
 
 .primary-nav .nav-menu a.active {
   font-weight: bold;
-  color: #6699CC; /* Use Blue Sky for contrast */
-  background-color: white;
+  color: #6699CC;
+  background-color: #BDBDBD;
   border-radius: 4px;
   padding: 0.5rem 1rem;
 }
@@ -51,7 +51,6 @@ header {
   padding: 0.3rem;
 }
 
-/* Dropdown nav styles */
 .nav-menu {
   list-style: none;
   display: flex;
